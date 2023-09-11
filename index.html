@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> DECISION MAKING APP </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <h1>Welcome</h1>
+        <div>
+            <label for="name">How should I call you?</label>
+            <input type="text" id="name" placeholder="Your name"/> 
+        </div>
+
+        <div>
+            <label for="question">What you want to know?</label>
+            <input type="text" id="question" placeholder="Your question"/>
+        </div>
+
+        <button onclick = "decisionMaking();answerBoxAppear()">Check it</button>
+
+        <div id="answerBox">
+            <p id="greeting"></p>
+            <p id="questionRepeat"></p>
+            <p id="answer"></p>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+    
+</html>
